@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListSearchRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:com:ctrip:flight:dom:agg:search:v2">
+	<RequestHeader>
+		<ClientAppID xmlns="urn:com:ctrip:flight:dom:search:common:v2">ClientAppID</ClientAppID>
+		<TransactionID xmlns="urn:com:ctrip:flight:dom:search:common:v2">TransactionID</TransactionID>
+		<ClientIP xmlns="urn:com:ctrip:flight:dom:search:common:v2">ClientIP</ClientIP>
+	</RequestHeader>
+	<RequestBody>
+		<SearchParameter>
+			<SaleChannel>Mobile</SaleChannel>
+			<SubSaleChannel>shhx</SubSaleChannel>
+			<JourneyType>S</JourneyType>
+			<RouteInfoList>
+				<RouteInfo>
+					<RouteNo>0</RouteNo>
+					<DepartDate>2019-06-15</DepartDate>
+					<PlaceType>CityCode</PlaceType>
+					<DepartCity>SHA</DepartCity>
+					<ArriveCity>CAN</ArriveCity>
+					<TransferCity/>
+				</RouteInfo>
+			</RouteInfoList>
+			<RequestSource>MainProcessRequest</RequestSource>
+			<SearchTypeList>
+				<SearchType>DirectFlight</SearchType>
+			</SearchTypeList>
+			<UserParameter>
+                <UserID>用户ID</UserID>
+                <MemberLevel>5</MemberLevel>
+                <Language>Chinese</Language>
+				<PassengerInfoList>
+					<PassengerInfo>
+						<PassengerType>ADT</PassengerType>
+						<PassengerNumber>1</PassengerNumber>
+					</PassengerInfo>
+				</PassengerInfoList>
+                <LocationInfo>
+                    <PlaceType></PlaceType>
+                    <LocationCity></LocationCity>
+                    <Longitude></Longitude>
+                    <Latitude></Latitude>
+                </LocationInfo>
+                <DeviceID></DeviceID>
+                <ClientIP></ClientIP>
+                <VisitorID></VisitorID>
+                <UserID></UserID>
+			</UserParameter>
+			<IsNeedRecommendation>0</IsNeedRecommendation>
+		</SearchParameter>
+        <ResultControl>
+            <FilterParameterList>
+                <FilterParameterEntity>
+                    <FilterType></FilterType>
+                    <LowestPriceFilterOption category="FilterParameterEntity">
+                        <IsFilterApplyPolicy></IsFilterApplyPolicy>
+                        <IsKeepSingleToRound category="LowestPriceFilterOptionEntity">
+
+                        </IsKeepSingleToRound>
+                    </LowestPriceFilterOption>
+                    <SaleTypeFilterOption category="SaleTypeFilterOptionEntity">
+                        <IncludeSaleTypes></IncludeSaleTypes>
+                        <ExcludeSaleTypes></ExcludeSaleTypes>
+                    </SaleTypeFilterOption>
+                    <LowestPricePerFlightOption category="LowestPricePerFlightOptionEntity">
+                        <IsFilterApplyPolicy></IsFilterApplyPolicy>
+                        <IsFilterPreferetialPolicy></IsFilterPreferetialPolicy>
+                        <IsKeepSingleToRound></IsKeepSingleToRound>
+                    </LowestPricePerFlightOption>
+                    <AirlineFilterOption category="AirlineFilterOptionEntity">
+                        <Airlines></Airlines>
+                    </AirlineFilterOption>
+                    <GroupLowestPricePerFlightFilterOption category="GroupLowestPricePerFlightFilterOption">
+                        <GroupList></GroupList>
+                    </GroupLowestPricePerFlightFilterOption>
+                    <GroupRuleLowestPricePerFlightFilterOption category="FilterGroupRuleEntity">
+                        <Airline></Airline>
+                        <Subclasses></Subclasses>
+                    </GroupRuleLowestPricePerFlightFilterOption>
+                </FilterParameterEntity>
+            </FilterParameterList>
+            <CareStatusOnly></CareStatusOnly>
+        </ResultControl>
+	</RequestBody>
+</ListSearchRequest>  

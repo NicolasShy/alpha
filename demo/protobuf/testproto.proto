@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+service Testproto {
+    // definition of method
+    rpc GetFeature(Point) returns (Feature) {
+    }
+}
+
+message Point {
+    string orange = 1;
+    string lightning = 2;
+    repeated leveljson pointchild = 3;
+}
+
+message leveljson {
+    string deutschland = 1;
+}
+
+message pack {
+    string orange = 1;
+    string lightning = 2;
+    string deutschland = 3;
+}
+
+message Feature {
+    repeated pack ipack = 1;
+}

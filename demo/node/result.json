@@ -1,0 +1,1163 @@
+{
+    "flightNO": "HO1252",
+    "ruleID": "0420",
+    "ruleIdNO": "4066P",
+    "class": {
+        "D": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收15%退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收10%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "P": {
+            "CH": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "IN": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "JC": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "F": {
+            "CH": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "IN": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "JC": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "J": {
+            "CH": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "IN": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "JC": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "C": {
+            "CH": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "IN": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "JC": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "W": {
+            "JC": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收60%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价40%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "Y": {
+            "IN": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "0",
+                    "refundDiscription": "余额再收0%退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "CH": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收10%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收10%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收5%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "JC": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ],
+            "GM": [
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "0",
+                    "reissueDiscription": "变更费不收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "E": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收100%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收60%(最低 50)退票费"
+                }
+            ]
+        },
+        "Z": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收100%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收60%(最低 50)退票费"
+                }
+            ]
+        },
+        "K": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收100%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收60%(最低 50)退票费"
+                }
+            ]
+        },
+        "S": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收60%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价40%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "T": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收60%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价40%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "H": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "Q": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "V": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收40%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价20%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "B": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收10%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "M": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收10%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        },
+        "U": {
+            "AD": [
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "余额再收20%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "0",
+                    "journeyType": "OW",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "refundAmount": "50",
+                    "refundDiscription": "未使用的首个航班起飞前2到∞小时退票时,余额再收10%(最低 50)退票费"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "-1",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "变更费使用客票全航程票面价10%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                },
+                {
+                    "ticketUseType": "-1",
+                    "journeyType": "",
+                    "departureTimeType": "0",
+                    "firstDepartureTime": "2",
+                    "lastDepartureTime": "-1",
+                    "departureTimeUnit": "H",
+                    "reissueAmount": "50",
+                    "reissueDiscription": "未使用的首个航班起飞前2到∞小时变更时,，变更费使用客票全航程票面价5%收取。升舱差额和变更费同时发生时，累加差额和变更费用。"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "ListSearchRequest": {
+        "RequestHeader": {
+            "ClientAppID": {
+                "$": "客户端应用ID"
+            },
+            "TransactionID": {
+                "$": "事务号"
+            },
+            "ClientIP": {
+                "$": "客户端IP"
+            }
+        },
+        "RequestBody": {
+            "SearchParameter": {
+                "SaleChannel": {
+                    "$": "销售渠道"
+                },
+                "SubSaleChannel": {
+                    "$": "子渠道"
+                },
+                "JourneyType": {
+                    "$": "航程类型"
+                },
+                "RouteInfoList": {
+                    "RequestRouteInfoEntity": {
+                        "RouteNo": {
+                            "$": "航班编号"
+                        },
+                        "DepartDate": {
+                            "$": "日期"
+                        },
+                        "PlaceType": {
+                            "$": "地点类型"
+                        },
+                        "DepartCity": {
+                            "$": "出发城市"
+                        },
+                        "ArriveCity": {
+                            "$": "目的城市"
+                        },
+                        "TransferCity": {
+                            "$": "指定中转城市"
+                        },
+                        "RouteAppointedInfo": {
+                            "RouteAppointedInfoEntity": {
+                                "TransferRouteToken": {},
+                                "SegmentAppointedInfoList": {
+                                    "SegmentAppointedInfoEntity": {
+                                        "SegmentNo": {
+                                            "$": "行程段ID"
+                                        },
+                                        "TransportType": {
+                                            "$": "交通工具类型"
+                                        },
+                                        "DepartDate": {
+                                            "$": "日期"
+                                        },
+                                        "DepartCity": {
+                                            "$": "出发城市"
+                                        },
+                                        "ArriveCity": {
+                                            "$": "目的城市"
+                                        },
+                                        "TransportNumber": {
+                                            "$": "航班号"
+                                        },
+                                        "SeatClass": {
+                                            "$": "子仓/席位"
+                                        },
+                                        "Price": {
+                                            "$": "价格"
+                                        },
+                                        "PID": {
+                                            "$": "PID"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "RequestSource": {
+                    "$": "请求来源"
+                },
+                "SearchTypeList": {
+                    "$": "查询产品列表"
+                },
+                "UserParameter": {
+                    "UserParameterEntity": {
+                        "UserID": [
+                            {
+                                "$": "用户ID"
+                            },
+                            {
+                                "$": "用户ID"
+                            }
+                        ],
+                        "MemberLevel": {
+                            "$": "携程会员等级"
+                        },
+                        "Language": {
+                            "$": "语言类型"
+                        },
+                        "PassengerInfoList": {
+                            "PassengerInfoEntity": {
+                                "PassengerType": {
+                                    "$": "乘客类型"
+                                },
+                                "PassengerNumber": {
+                                    "$": "乘客数量"
+                                }
+                            }
+                        },
+                        "LocationInfo": {
+                            "LocationInfoEntity": {
+                                "PlaceType": {
+                                    "$": "地点类型"
+                                },
+                                "LocationCity": {
+                                    "$": "坐标城市"
+                                },
+                                "Longitude": {
+                                    "$": "经度"
+                                },
+                                "Latitude": {
+                                    "$": "纬度"
+                                }
+                            }
+                        },
+                        "DeviceID": {
+                            "$": "mobile的deviceID"
+                        },
+                        "ClientIP": {
+                            "$": "Online的终端IP"
+                        },
+                        "VisitorID": {
+                            "$": "VisitID"
+                        }
+                    }
+                },
+                "IsNeedRecommendation": {
+                    "$": "是否需要推荐"
+                },
+                "AdvancedParameter": {
+                    "AdvancedParameterEntity": {
+                        "ABTestInfoList": {
+                            "ABTestInfoEntity": {
+                                "TestCode": {
+                                    "$": "实验号"
+                                },
+                                "TestVersion": {
+                                    "$": "实验版本"
+                                }
+                            }
+                        },
+                        "RequestAttributeList": {},
+                        "CacheUsage": {},
+                        "PolicyControlList": {},
+                        "SceneSpecifiedInfo": {
+                            "@type": "SceneSpecifiedInfoEntity",
+                            "CorporationChannelInfo": {
+                                "@type": "CorporationChannelInfoEntity",
+                                "CorporationID": {},
+                                "B2GRequest": {
+                                    "@type": "B2GRequestEntity",
+                                    "CustomerID": {},
+                                    "Airline": {},
+                                    "ContractType": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "DebugParameter": {
+                    "@type": "DebugParameterEntity",
+                    "ExcludeCacheList": {
+                        "$": "AGG对每个子系统不使用缓存列表"
+                    },
+                    "OutputLogKey": {
+                        "$": "输出日志的标识"
+                    },
+                    "IncludeLogFlagList": {
+                        "$": "输出日志的标签"
+                    }
+                }
+            },
+            "ResultControl": {
+                "@type": "ResultControlEntity",
+                "FilterParameterList": {
+                    "FilterParameterEntity": {
+                        "FilterType": {},
+                        "LowestPriceFilterOption": {
+                            "@category": "FilterParameterEntity",
+                            "IsFilterApplyPolicy": {},
+                            "IsKeepSingleToRound": {
+                                "@category": "LowestPriceFilterOptionEntity"
+                            }
+                        },
+                        "SaleTypeFilterOption": {
+                            "@category": "SaleTypeFilterOptionEntity",
+                            "IncludeSaleTypes": {},
+                            "ExcludeSaleTypes": {}
+                        },
+                        "LowestPricePerFlightOption": {
+                            "@category": "LowestPricePerFlightOptionEntity",
+                            "IsFilterApplyPolicy": {},
+                            "IsFilterPreferetialPolicy": {},
+                            "IsKeepSingleToRound": {}
+                        },
+                        "AirlineFilterOption": {
+                            "@category": "AirlineFilterOptionEntity",
+                            "Airlines": {}
+                        },
+                        "GroupLowestPricePerFlightFilterOption": {
+                            "@category": "GroupLowestPricePerFlightFilterOption",
+                            "GroupList": {}
+                        },
+                        "GroupRuleLowestPricePerFlightFilterOption": {
+                            "@category": "FilterGroupRuleEntity",
+                            "Airline": {},
+                            "Subclasses": {}
+                        }
+                    }
+                },
+                "CareStatusOnly": {}
+            }
+        }
+    }
+}

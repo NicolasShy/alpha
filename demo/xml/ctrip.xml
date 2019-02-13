@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListSearchRequest>
+    <RequestHeader>
+        <ClientAppID>客户端应用ID</ClientAppID>
+        <TransactionID>事务号</TransactionID>
+        <ClientIP>客户端IP</ClientIP>
+    </RequestHeader>
+    <RequestBody>
+        <SearchParameter>
+            <SaleChannel>销售渠道</SaleChannel>
+            <SubSaleChannel>子渠道</SubSaleChannel>
+            <JourneyType>航程类型</JourneyType>
+            <RouteInfoList>
+                <RequestRouteInfoEntity>
+                    <RouteNo>航班编号</RouteNo>
+                    <DepartDate>日期</DepartDate>
+                    <PlaceType>地点类型</PlaceType>
+                    <DepartCity>出发城市</DepartCity>
+                    <ArriveCity>目的城市</ArriveCity>
+                    <TransferCity>指定中转城市</TransferCity>
+                    <RouteAppointedInfo>
+                        <RouteAppointedInfoEntity>
+                            <TransferRouteToken></TransferRouteToken>
+                            <SegmentAppointedInfoList>
+                                <SegmentAppointedInfoEntity>
+                                    <SegmentNo>行程段ID</SegmentNo>
+                                    <TransportType>交通工具类型</TransportType>
+                                    <DepartDate>日期</DepartDate>
+                                    <DepartCity>出发城市</DepartCity>
+                                    <ArriveCity>目的城市</ArriveCity>
+                                    <TransportNumber>航班号</TransportNumber>
+                                    <SeatClass>子仓/席位</SeatClass>
+                                    <Price>价格</Price>
+                                    <PID>PID</PID>
+                                </SegmentAppointedInfoEntity>
+                            </SegmentAppointedInfoList>
+                        </RouteAppointedInfoEntity>
+                    </RouteAppointedInfo>
+                </RequestRouteInfoEntity>
+            </RouteInfoList>
+            <RequestSource>请求来源</RequestSource>
+            <SearchTypeList>查询产品列表</SearchTypeList>
+            <UserParameter>
+                <UserParameterEntity>
+                    <UserID>用户ID</UserID>
+                    <MemberLevel>携程会员等级</MemberLevel>
+                    <Language>语言类型</Language>
+                    <PassengerInfoList>
+                        <PassengerInfoEntity>
+                            <PassengerType>乘客类型</PassengerType>
+                            <PassengerNumber>乘客数量</PassengerNumber>
+                        </PassengerInfoEntity>
+                    </PassengerInfoList>
+                    <LocationInfo>
+                        <LocationInfoEntity>
+                            <PlaceType>地点类型</PlaceType>
+                            <LocationCity>坐标城市</LocationCity>
+                            <Longitude>经度</Longitude>
+                            <Latitude>纬度</Latitude>
+                        </LocationInfoEntity>
+                    </LocationInfo>
+                    <DeviceID>mobile的deviceID</DeviceID>
+                    <ClientIP>Online的终端IP</ClientIP>
+                    <VisitorID>VisitID</VisitorID>
+                    <UserID>用户ID</UserID>
+                </UserParameterEntity>
+            </UserParameter>
+            <IsNeedRecommendation>是否需要推荐</IsNeedRecommendation>
+            <AdvancedParameter>
+                <AdvancedParameterEntity>
+                    <ABTestInfoList>
+                        <ABTestInfoEntity>
+                            <TestCode>实验号</TestCode>
+                            <TestVersion>实验版本</TestVersion>
+                        </ABTestInfoEntity>
+                    </ABTestInfoList>
+                    <RequestAttributeList>
+                    </RequestAttributeList>
+                    <CacheUsage></CacheUsage>
+                    <PolicyControlList></PolicyControlList>
+                    <SceneSpecifiedInfo type="SceneSpecifiedInfoEntity">
+                        <CorporationChannelInfo type="CorporationChannelInfoEntity">
+                            <CorporationID></CorporationID>
+                            <B2GRequest type="B2GRequestEntity">
+                                <CustomerID></CustomerID>
+                                <Airline></Airline>
+                                <ContractType></ContractType>
+                            </B2GRequest>
+                        </CorporationChannelInfo>
+                    </SceneSpecifiedInfo>
+                </AdvancedParameterEntity>
+
+            </AdvancedParameter>
+            <DebugParameter type="DebugParameterEntity">
+                <ExcludeCacheList>AGG对每个子系统不使用缓存列表</ExcludeCacheList>
+                <OutputLogKey>输出日志的标识</OutputLogKey>
+                <IncludeLogFlagList>输出日志的标签</IncludeLogFlagList>
+            </DebugParameter>
+        </SearchParameter>
+        <ResultControl type="ResultControlEntity">
+            <FilterParameterList>
+                <FilterParameterEntity>
+                    <FilterType></FilterType>
+                    <LowestPriceFilterOption category="FilterParameterEntity">
+                        <IsFilterApplyPolicy></IsFilterApplyPolicy>
+                        <IsKeepSingleToRound category="LowestPriceFilterOptionEntity">
+
+                        </IsKeepSingleToRound>
+                    </LowestPriceFilterOption>
+                    <SaleTypeFilterOption category="SaleTypeFilterOptionEntity">
+                        <IncludeSaleTypes></IncludeSaleTypes>
+                        <ExcludeSaleTypes></ExcludeSaleTypes>
+                    </SaleTypeFilterOption>
+                    <LowestPricePerFlightOption category="LowestPricePerFlightOptionEntity">
+                        <IsFilterApplyPolicy></IsFilterApplyPolicy>
+                        <IsFilterPreferetialPolicy></IsFilterPreferetialPolicy>
+                        <IsKeepSingleToRound></IsKeepSingleToRound>
+                    </LowestPricePerFlightOption>
+                    <AirlineFilterOption category="AirlineFilterOptionEntity">
+                        <Airlines></Airlines>
+                    </AirlineFilterOption>
+                    <GroupLowestPricePerFlightFilterOption category="GroupLowestPricePerFlightFilterOption">
+                        <GroupList></GroupList>
+                    </GroupLowestPricePerFlightFilterOption>
+                    <GroupRuleLowestPricePerFlightFilterOption category="FilterGroupRuleEntity">
+                        <Airline></Airline>
+                        <Subclasses></Subclasses>
+                    </GroupRuleLowestPricePerFlightFilterOption>
+                </FilterParameterEntity>
+            </FilterParameterList>
+            <CareStatusOnly></CareStatusOnly>
+        </ResultControl>
+    </RequestBody>
+</ListSearchRequest>
