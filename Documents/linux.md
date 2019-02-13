@@ -1,6 +1,6 @@
-####Ubuntu
+#### Ubuntu
 
-#####add application to favorite
+##### add application to favorite
 get into desktop file directory
 ```bash
 cd /usr/share/applications
@@ -21,3 +21,8 @@ Type=Application
 Icon=/optional/path/to/icon.png
 ```
 因为要解决linux下postman无法添加到标题栏而做了这个尝试
+
+##### check which process is using the port
+```bash
+lsof -i:the_port_number
+```
