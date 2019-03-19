@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OTA_AirBookRQ>
+  <POS>
+    <Source PseudoCityCode="BJS187" />
+  </POS>
+  <AirItinerary>
+    <OriginDestinationOptions>
+      <OriginDestinationOption>
+        <FlightSegment InterSegment="true" RPH="1" DepartureDateTime="2013-11-26T08:00:00" ArrivalDateTime="2013-11-26T11:25:00" FlightNumber="101" NumberInParty="2" Status="NN" SegmentType="NORMAL">
+          <OperatingAirline Code="CA" FlightNumber="101" />
+          <DepartureAirport LocationCode="PEK" />
+          <ArrivalAirport LocationCode="HKG" />
+          <MarketingAirline Code="CA" />
+          <BookingClassAvail ResBookDesigCode="Y" />
+        </FlightSegment>
+      </OriginDestinationOption>
+    </OriginDestinationOptions>
+  </AirItinerary>
+  <TravelerInfo>
+    <AirTraveler PassengerTypeCode="ADT" Gender="MALE" AccompaniedByInfant="true">
+      <PersonName LanguageType="EN">
+        <Surname>LI/LEI</Surname>
+      </PersonName>
+      <Document DocType="PP" DocTypeDetail="P" DocID="G446164" DocHolderNationality="CN" DocIssueCountry="CN" BirthDate="1984-09-04" Gender="MALE" ExpireDate="2031-12-19" RPH="1">
+        <DocHolderFormattedName>
+          <GivenName>LEI</GivenName>
+          <Surname>LI</Surname>
+        </DocHolderFormattedName>
+      </Document>
+      <PassengerTypeQuantity Age="30" />
+      <TravelerRefNumber RPH="1" InfantTravelerRPH="2" />
+      <FlightSegmentRPHs>
+        <FlightSegmentRPH>1</FlightSegmentRPH>
+      </FlightSegmentRPHs>
+      <DocumentFlightBinding>
+        <DocumentRPH>1</DocumentRPH>
+        <FlightSegmentRPH>1</FlightSegmentRPH>
+      </DocumentFlightBinding>
+    </AirTraveler>
+    <AirTraveler BirthDate="2012-02-08" PassengerTypeCode="INF" Gender="MALE">
+      <PersonName LanguageType="EN">
+        <Surname>LI/XIAOLEI</Surname>
+      </PersonName>
+      <PassengerTypeQuantity Age="1" />
+      <TravelerRefNumber RPH="2" />
+      <FlightSegmentRPHs>
+        <FlightSegmentRPH>1</FlightSegmentRPH>
+      </FlightSegmentRPHs>
+    </AirTraveler>
+    <SpecialReqDetails>
+      <OtherServiceInformations>
+        <OtherServiceInformation>
+          <Airline Code="CA" />
+          <Text>CTCT13801035768</Text>
+        </OtherServiceInformation>
+        <OtherServiceInformation>
+          <Airline Code="CA" />
+          <Text>CTCM13801035768/P1</Text>
+        </OtherServiceInformation>
+      </OtherServiceInformations>
+      <SpecialRemarks>
+        <SpecialRemark>
+          <Text>TJ AUTH SHA255</Text>
+        </SpecialRemark>
+      </SpecialRemarks>
+    </SpecialReqDetails>
+  </TravelerInfo>
+  <Ticketing TicketTimeLimit="2013-11-26T05:32:20.6578052+08:00" />
+  <TPA_Extensions>
+    <ContactInfo>0512-82274023TCBOOK</ContactInfo>
+    <EnvelopType>K</EnvelopType>
+    <EnvelopDelay>false</EnvelopDelay>
+  </TPA_Extensions>
+</OTA_AirBookRQ>
