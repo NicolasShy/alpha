@@ -22,7 +22,7 @@ docker build -t ihisenschedule:latest .
 ##### 以-it的方式启动一个container
 
 ```bash
-docker run -d --name=container-name -it image-name:image-tag /bin/bash
+docker run -d --name=container-name -p 8080:8080 -it image-name:image-tag /bin/bash
 ```
 
 例如处理openjdk镜像
