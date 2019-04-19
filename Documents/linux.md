@@ -26,3 +26,8 @@ Icon=/optional/path/to/icon.png
 ```bash
 lsof -i:the_port_number
 ```
+
+##### 复制本机文件至远程登陆的服务器
+```bash
+scp -r *folder*  username@remote-ip:~/folder
+```
