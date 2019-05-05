@@ -10,3 +10,9 @@ export NODE_ENV=test
 echo $NODE_ENV
 ```
 
+#### pm2
+```bash
+# update environment
+ENV_VAR=somethingnew pm2 restart app --update-env
+```
+
