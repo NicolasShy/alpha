@@ -66,3 +66,9 @@ cat /etc/hosts
 ##### attention
 
 watch out for docker container boot sequence if there's dependency between services.
+
+### docker-compose
+
+```bash
+docker-compose up --build -d
+```

@@ -31,3 +31,9 @@ lsof -i:the_port_number
 ```bash
 scp -r *folder*  username@remote-ip:~/folder
 ```
+
+##### 查看端口占用
+
+```bash
+netstat -ntlp
+```
